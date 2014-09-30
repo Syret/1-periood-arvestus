@@ -11,7 +11,13 @@
     <main id="site-body">
       <section id="site-content">
         <h2>Tingimuslause</h2>
-        <!--  Sisesta siia kood -->
+        <?php $nr = rand(100 , 200); ?>
+      <?php 
+        if (150 < $nr){
+          echo "Juhuslik number {$nr} on suurem kui 150";} 
+        elseif  (150 > $nr){
+          echo "Juhuslik number {$nr} on väiksem kui 150";}
+      ?>
 
         <h2>Juhuslik pilt</h2>
         <!--  Sisesta siia kood -->
